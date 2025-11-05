@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Q&A Bot — Snowcia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="app-header">
+      <h1>Snowcia — Q&A</h1>
+      <p class="subtitle">Zadaj pytanie, a bot odpowie — szybko, szczerze i bez ściemy.</p>
+    </header>
+
+    <section class="chat" id="chat">
+      <!-- messages będą dodawane dynamicznie -->
+    </section>
+
+    <form id="inputForm" class="input-area" autocomplete="off">
+      <input id="userInput" type="text" placeholder="Zadaj pytanie..." />
+      <button type="submit">Wyślij</button>
+    </form>
+
+    <footer class="credit">
+      <small>Projekt demonstracyjny — reguły lokalne. Możesz później podłączyć API.</small>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
